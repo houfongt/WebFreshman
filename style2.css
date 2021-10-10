@@ -1,0 +1,52 @@
+body, html {
+  font-family: sans-serif;
+}
+
+table {
+  width: 60%;
+  margin: 20px auto;
+  border-collapse: separate;
+  border-spacing: 0 15px; 
+}
+
+thead th {
+  font-size: 14px;
+  color: #555555;
+  line-height: 1.4;
+  text-align: left;    
+  text-transform: uppercase;
+  padding: 20px;
+  background-color: #FAEBD7;
+}
+
+tbody td {
+  font-size: 15px;
+  color: #808080;
+  line-height: 1.4;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+tbody tr {              /* tr 原來的設定 */
+  background-color: #f7f7f7;
+}
+
+tbody tr:hover {        /* tr 滑鼠移入時 */
+  cursor: pointer;
+  background-color: #cccccc;
+}
+
+
+
+
+/* round border */
+tbody tr td:first-child { border-top-left-radius: 10px; }
+tbody tr td:first-child { border-bottom-left-radius: 10px; }
+tbody tr td:last-child { border-top-right-radius: 10px; }
+tbody tr td:last-child { border-bottom-right-radius: 10px; }
+
+
+
+
